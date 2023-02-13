@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "fsd/daily-post-with-input-text",
+  "title": "Postagem diária em destaque",
+  "icon": "calendar-alt",
+  "category": "text",
+  "description": "Bloco de Postagem diária de destaque",
+  "textdomain": "fsd",
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": 1
+    },
+    "textinput": {
+      "type": "string",
+      "default": 1
+    }
+  },
+  "editorScript": "file:./index.js"
+}

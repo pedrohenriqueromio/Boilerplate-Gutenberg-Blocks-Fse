@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "app/repetidor-links",
+  "title": "Header links",
+  "category": "layout",
+  "icon": "block-default",
+  "description": "Repetidor Links",
+  "keywords": [
+    "ads",
+    "banner",
+    "dinamico",
+    "comercial",
+    "especial",
+    "publicitário"
+  ],
+  "version": "0.1.0",
+  "textdomain": "header-link",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "tagName": {
+      "type": "string",
+      "default": "div"
+    },
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "postId": {
+      "type": "number"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "script": "file:./script.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

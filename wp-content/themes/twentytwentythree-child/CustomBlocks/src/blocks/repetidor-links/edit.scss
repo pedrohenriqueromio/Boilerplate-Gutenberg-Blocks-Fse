@@ -1,0 +1,27 @@
+.block-header-link-state{
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    background-color: #EFEFEF;
+    padding-top:9px ;
+    padding-bottom:9px ;
+    flex-wrap: wrap;
+    
+    a,p{
+        position: relative;
+        font-size: 16px ;
+        margin: 0px!important;
+        color: #949494 ;
+    }
+
+    p:not(:last-child):after {
+        content: " ";
+        width: 2px;
+        height: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: #707070;
+        position: absolute;
+    }
+    
+}
